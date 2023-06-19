@@ -1,0 +1,49 @@
+@use "mixins";
+
+.mainContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
+
+  // Estilos para dispositivos móveis
+  @include mixins.mobile {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    flex-direction: column;
+  }
+
+  section {
+    width: 30%;
+    padding: 2rem;
+    margin: 1%;
+    border: 1px solid #000;
+    background-color: #fff;
+
+    // Estilos para dispositivos móveis
+    @include mixins.mobile {
+      width: 85%;
+      margin: 1rem;
+      align-items: center;
+    }
+
+    i {
+      text-align: center;
+      color: #0bb3c9;
+      font-size: 3rem;
+      display: block;
+      margin-bottom: 1.5rem;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-weight: 750;
+      line-height: 1.5;
+    }
+  }
+}

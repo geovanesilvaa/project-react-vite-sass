@@ -1,0 +1,21 @@
+1. Execute o seguinte comando para criar um novo projeto React-Vite:
+==> npx create-vite@latest my-app --template react
+* Esse comando usa o utilitário npx para executar o pacote create-vite. 
+* Ele cria um novo projeto chamado my-app com o template do React.
+
+2. Após a criação do projeto, navegue até a pasta do projeto
+==> cd my-app
+
+3. Instale as dependências do projeto executando o seguinte comando:
+==> npm install
+* Isso irá instalar as dependências listadas no arquivo package.json.
+
+4. Agora, seu projeto React-Vite está pronto para ser executado. 
+    Inicie o servidor de desenvolvimento usando o seguinte comando:
+==> npm run dev
+* O servidor de desenvolvimento será iniciado 
+    e você poderá ver seu projeto React-Vite em execução no navegador.
+
+5. Abra um navegador da web e acesse o endereço http://localhost:3000 
+    (ou outro endereço indicado no terminal) para visualizar seu projeto 
+    React-Vite em execução.
